@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffffa6;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.login button,
+.signup button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    float: right;
+}
+
+.login button {
+    margin-right: -25px;
+}
+
+button:hover {
+    font-size: 13px;
+    font-weight: bolder;
+}
+.login a, .signup a{
+    color: black;
+}
+.login a:hover, .signup a:hover{
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.experiences h2 {
+    font-size: 50px;
+}
+
+.content1 {
+    font-size: 17px;
+    padding: 0px 200px;
+    width: 90%;
+    text-align: center;
+}
+
+.experiences {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: calc(33.33% - 180px);
+    /* Adjust as needed for responsiveness */
+}
+
+.experience h3 {
+    color: #333;
+}
+
+.experience p {
+    color: #666;
+}
+
+.experience img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}

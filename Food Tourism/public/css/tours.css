@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffffa6;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+.login button, .signup button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    float: right;
+}
+.login button{
+    margin-right: -25px;
+}
+button:hover{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.login a, .signup a{
+    color: black;
+}
+.login a:hover, .signup a:hover{
+    color: black;
+}
+
+.tours{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tours h2 {
+    font-size: 50px;
+}
+.tours h3{
+    text-align: center;
+    font-size: 30px;
+}
+.tour1{
+    padding: 20px 100px;
+    width: 100%;
+}
+.tour1 img{
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.tour11{
+    text-align: center;
+    width: 50%;
+}
+.tour12 {
+    width: 50%;
+    padding: 100px;
+    border-bottom: 5px solid black;
+    height: 350px;
+}
+.tour112{
+    font-size: 17px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

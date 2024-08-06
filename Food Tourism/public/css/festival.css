@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffffa6;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.login button,
+.signup button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    float: right;
+}
+
+.login button {
+    margin-right: -25px;
+}
+
+button:hover {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.login a,
+.signup a {
+    color: black;
+}
+
+.login a:hover,
+.signup a:hover {
+    color: black;
+}
+
+.festival11 {
+    opacity: 0.8;
+    margin: 40px 20px;
+    color: rgb(255, 255, 255);
+    background-image: url('../images/f1.webp');
+    background-size: 100%;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    border-left: 5px solid rgb(255, 0, 0);
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+}
+
+.festival111 {
+    margin-top: -20px;
+    padding: 10px 2px 0px 0px;
+    width: 735px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.162);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(19, 19, 19, 0.785), rgba(30, 30, 30, 0.319), rgba(145, 145, 145, 0.078));
+}
+
+.festival h3 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.festival112 {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+}
+
+.festival12 {
+    margin-top: -15px;
+    width: 40%;
+}
+
+.festival21 {
+    opacity: 0.8;
+    margin: 40px 20px;
+    color: rgb(255, 255, 255);
+    background-image: url('../images/f2.jpg');
+    background-size: 100%;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    border-left: 5px solid rgb(255, 0, 0);
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+}
+
+.festival211 {
+    margin-top: -20px;
+    padding: 10px 2px 0px 0px;
+    width: 735px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.162);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(45, 45, 45, 0.785), rgba(30, 30, 30, 0.319), rgba(145, 145, 145, 0.078));
+}
+
+.festival212 {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+}
+
+.festival22 {
+    margin-top: -20px;
+    width: 40%;
+}
+
+.festival31 {
+    opacity: 0.8;
+    margin: 40px 20px;
+    color: rgb(255, 255, 255);
+    background-image: url('../images/f3.jpg');
+    background-size: 100% 100%;
+    background-position: 10px 0px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    border-left: 5px solid rgb(255, 0, 0);
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+}
+
+.festival311 {
+    margin-top: -20px;
+    padding: 10px 2px 0px 0px;
+    width: 735px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.162);
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(45, 45, 45, 0.785), rgba(30, 30, 30, 0.319), rgba(145, 145, 145, 0.078));
+}
+
+.festival312 {
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+}
+
+.festival32 {
+    margin-top: -25px;
+    width: 40%;
+}
+
+.festival113 {
+    padding: 10px 100px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
